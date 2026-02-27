@@ -16,17 +16,3 @@
   color: var(--text-main);
   text-align: center;
 }
-
-button {
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
-  padding: 10px 24px;
-  border-radius: 6px;
-  transition: background 0.2s; /* Smooth UX transition */
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: var(--primary-hover);
-}
