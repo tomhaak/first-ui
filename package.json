@@ -1,0 +1,16 @@
+{
+  "name": "testing-vscode",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./output.css --minify",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "@digitalservicebund/kern-ux-tailwind-theme": "github:digitalservicebund/kern-ux-tailwind-theme",
+    "@kern-ux/native": "^2.4.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.2.1"
+  }
+}
